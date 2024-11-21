@@ -47,8 +47,8 @@ pipeline {
             echo 'Deployment successful'
         }
 
-        failure [
+        failure {
             echo 'Deployment unsuccessful'
-        ]
+        }
     }
 }
