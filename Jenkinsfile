@@ -43,7 +43,7 @@ pipeline {
             cleanWs()
         }
 
-        succes {
+        success {
             echo 'Deployment successful'
         }
 
